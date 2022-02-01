@@ -26,7 +26,7 @@ router.get("/", (req, res) => {
     res.send("JDKJKFJ");
   });
 
-app.use("/.netlify/functions/index", router);
+app.use("/.netlify/functions/index", testRoute);
 module.exports.handler =serverlsee(app)
 // app.listen(8800, () => {
 //   console.log("Backend server is running!");
